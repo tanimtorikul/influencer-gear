@@ -82,3 +82,59 @@ a{
     gap: 60px;
     border-top: 1px solid rgba(192, 204, 218, 0.60) ;
 }
+
+/* collection area styles */
+.collections{
+    max-width: 1050px;
+    margin: 100px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 44px;
+}
+.collection{
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+.collection .product-img{
+    width: 100%;
+}
+.product-title{
+    color:  #18191F;
+    font-size: 1.80rem;
+    font-weight: 500;
+}
+.product-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 150%; 
+}
+.review{
+    display: flex;
+    gap: 10px;
+}
+.rating{
+    color: #5E6366;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 22px; 
+    letter-spacing: 0.1px;
+}
+.product-desc{
+    color: #787885;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%; 
+    letter-spacing: 0.252px;
+}
+.see-more{
+    position: relative;
+    left: 910px;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+}
