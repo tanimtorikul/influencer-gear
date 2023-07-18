@@ -24,6 +24,7 @@ a{
     justify-content: space-between;
     min-height: 100px;
     align-items: center;
+    overflow: hidden;
 }
 .nav-logo .logo{
     color: #3A3A3A;
@@ -49,7 +50,8 @@ a{
     align-items: center;
 }
 .banner-content{
-    width: 55%;
+    width: 100%;
+    padding: 10px;
 }
 .banner-title{
     color: #3A3A3A;
@@ -81,12 +83,13 @@ a{
     display: flex;
     gap: 60px;
     border-top: 1px solid rgba(192, 204, 218, 0.60) ;
+    flex-wrap: wrap;
 }
 
 /* collection area styles */
 .collections{
     max-width: 1050px;
-    margin: 100px auto 0;
+    margin: 100px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 44px;
@@ -95,6 +98,15 @@ a{
     border-radius: 5px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     padding: 20px;
+}
+.collection-title{
+    text-align: center;
+    margin-top: 100px;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 70px; 
 }
 .collection .product-img{
     width: 100%;
@@ -156,6 +168,9 @@ a{
     line-height: 60px; 
     margin-bottom: 16px;
 }
+.featured-img {
+    width: 100%;
+}
 .featured-desc{
     color: #6C6C6C;
     font-size: 1rem;
@@ -193,3 +208,4 @@ a{
     gap: 16px;
     font-size: 1.3rem;
 }
+
